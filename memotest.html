@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="dist/memotest.css">
+	<title>Farm Animals</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="userName">
+		<p>¿What's your name?</p>
+		<input class="nombre" type="text" name="">
+		<button onclick="comenzar()">Start</button>
+	</div>
+	<div class="container">
+		<div class="data">
+			<h1>Farm Animals
+				</h1>
+			<div class="datos">
+				<p class="tuNombre">Your name
+				</p>
+				<h2>Movements
+				</h2>
+				<p class="turnoNumero">20
+				</p>
+			</div>
+			<div class="instrucciones">
+				<h2>Instructions
+				</h2>
+				<p> You have only 20 movements
+				</p>
+				<p>Find these animals from the farm </p>
+				<p>There are two pairs for each one:</p>
+				<img src="images/cow.jpeg">
+				<img src="images/pig.jpeg">
+				<img src="images/sheep.jpeg">
+			</div>
+		</div>
+		<div class="imagenes">
+			<img class="img" src="images/farm.jpg">
+			<img class="img" src="images/farm.jpg">
+			<img class="img" src="images/farm.jpg">
+			<img class="img" src="images/farm.jpg">
+			<img class="img" src="images/farm.jpg">
+			<img class="img" src="images/farm.jpg">
+			<img class="img" src="images/farm.jpg">
+			<img class="img" src="images/farm.jpg">
+			<img class="img" src="images/farm.jpg">
+			<img class="img" src="images/farm.jpg">
+			<img class="img" src="images/farm.jpg">
+			<img class="img" src="images/farm.jpg">
+		</div>
+	</div>
+	<div class="noMostrar nuevamente" id="perdio">
+		<p>You lost, try again!</p>
+		<button onclick="jugarNuevamente()">Play</button>
+	</div>
+	<div class="noMostrar nuevamente" id="gano">
+		<p>¡Congratulations, you win!</p>
+		<button onclick="jugarNuevamente()">Play</button>
+	</div>
+	<script type="text/javascript" src="javascript/jquery.min.js"></script>
+  <script type="text/javascript" src="javascript/memotest.js"></script>
+</body>
+</html>
